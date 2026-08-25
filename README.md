@@ -240,12 +240,6 @@ class 1 -> GMM for digit 1
 class 9 -> GMM for digit 9
 ```
 
-The class prior is estimated empirically:
-
-$$
-p(y=c)=\frac{\#\{i:y_i=c\}}{N}.
-$$
-
 ### 3. K-Means initialization
 
 For each class, K-Means first divides the class-specific training images into (K) clusters. The cluster centroids initialize the Gaussian means. Cluster frequencies initialize the mixture weights, and each cluster covariance initializes the corresponding covariance matrix.
